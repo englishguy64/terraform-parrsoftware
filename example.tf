@@ -14,7 +14,6 @@ terraform {
       name = "terraform-parrsoftware"
     }
   }
-
 }
 
 provider "azurerm" {
