@@ -24,3 +24,8 @@ resource "azurerm_resource_group" "rg" {
   name     = "myTFResourceGroup"
   location = "northeurope"
 }
+
+resource "azurerm_resource_group" "rg" {
+  name     = "myTFResourceGroup"
+  location = "northeurope2"
+}
