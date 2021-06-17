@@ -26,9 +26,3 @@ resource "azurerm_resource_group" "rg" {
   name     = "myTFResourceGroup"
   location = "northeurope"
 }
-
-resource "null_resource" "example" {
-        triggers = {
-          value = "A example resource that does nothing!"
-        }
-}
